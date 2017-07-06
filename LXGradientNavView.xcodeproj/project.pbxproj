@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9482B69F1F0DC9EF0086565D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9482B69E1F0DC9EF0086565D /* main.m */; };
+		9482B6A21F0DC9EF0086565D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9482B6A11F0DC9EF0086565D /* AppDelegate.m */; };
+		9482B6A51F0DC9EF0086565D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9482B6A41F0DC9EF0086565D /* ViewController.m */; };
+		9482B6A81F0DC9EF0086565D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9482B6A61F0DC9EF0086565D /* Main.storyboard */; };
+		9482B6AA1F0DC9EF0086565D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9482B6A91F0DC9EF0086565D /* Assets.xcassets */; };
+		9482B6AD1F0DC9EF0086565D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9482B6AB1F0DC9EF0086565D /* LaunchScreen.storyboard */; };
+		9482B6B81F0DC9F00086565D /* LXGradientNavViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9482B6B71F0DC9F00086565D /* LXGradientNavViewTests.m */; };
+		9482B6C31F0DC9F00086565D /* LXGradientNavViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9482B6C21F0DC9F00086565D /* LXGradientNavViewUITests.m */; };
+		9482B6D21F0DCA410086565D /* BasicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9482B6D11F0DCA410086565D /* BasicController.m */; };
+		9482B6D51F0DCA550086565D /* NextController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9482B6D41F0DCA550086565D /* NextController.m */; };
+		9482B6D81F0DCAAE0086565D /* UIImage+colorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9482B6D71F0DCAAE0086565D /* UIImage+colorImage.m */; };
+		9482B7301F0DCC930086565D /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9482B72F1F0DCC930086565D /* UIView+Frame.m */; };
+		9482B7331F0DCD950086565D /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 9482B7321F0DCD950086565D /* UIColor+Expanded.m */; };
+		9482B7371F0DCE3E0086565D /* LXGradientNavManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9482B7361F0DCE3E0086565D /* LXGradientNavManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9482B6B41F0DC9F00086565D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9482B6921F0DC9EF0086565D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9482B6991F0DC9EF0086565D;
+			remoteInfo = LXGradientNavView;
+		};
+		9482B6BF1F0DC9F00086565D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9482B6921F0DC9EF0086565D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9482B6991F0DC9EF0086565D;
+			remoteInfo = LXGradientNavView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9482B69A1F0DC9EF0086565D /* LXGradientNavView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXGradientNavView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9482B69E1F0DC9EF0086565D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9482B6A01F0DC9EF0086565D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9482B6A11F0DC9EF0086565D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9482B6A31F0DC9EF0086565D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9482B6A41F0DC9EF0086565D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9482B6A71F0DC9EF0086565D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9482B6A91F0DC9EF0086565D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9482B6AC1F0DC9EF0086565D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9482B6AE1F0DC9EF0086565D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9482B6B31F0DC9F00086565D /* LXGradientNavViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXGradientNavViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9482B6B71F0DC9F00086565D /* LXGradientNavViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXGradientNavViewTests.m; sourceTree = "<group>"; };
+		9482B6B91F0DC9F00086565D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9482B6BE1F0DC9F00086565D /* LXGradientNavViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXGradientNavViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9482B6C21F0DC9F00086565D /* LXGradientNavViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXGradientNavViewUITests.m; sourceTree = "<group>"; };
+		9482B6C41F0DC9F00086565D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9482B6D01F0DCA410086565D /* BasicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicController.h; sourceTree = "<group>"; };
+		9482B6D11F0DCA410086565D /* BasicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicController.m; sourceTree = "<group>"; };
+		9482B6D31F0DCA550086565D /* NextController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextController.h; sourceTree = "<group>"; };
+		9482B6D41F0DCA550086565D /* NextController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextController.m; sourceTree = "<group>"; };
+		9482B6D61F0DCAAE0086565D /* UIImage+colorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+colorImage.h"; path = "../UIImage+colorImage.h"; sourceTree = "<group>"; };
+		9482B6D71F0DCAAE0086565D /* UIImage+colorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+colorImage.m"; path = "../UIImage+colorImage.m"; sourceTree = "<group>"; };
+		9482B72E1F0DCC930086565D /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		9482B72F1F0DCC930086565D /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		9482B7311F0DCD950086565D /* UIColor+Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Expanded.h"; sourceTree = "<group>"; };
+		9482B7321F0DCD950086565D /* UIColor+Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Expanded.m"; sourceTree = "<group>"; };
+		9482B7351F0DCE3E0086565D /* LXGradientNavManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXGradientNavManager.h; sourceTree = "<group>"; };
+		9482B7361F0DCE3E0086565D /* LXGradientNavManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXGradientNavManager.m; sourceTree = "<group>"; };
+		9482B7381F0DD9BD0086565D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9482B6971F0DC9EF0086565D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9482B6B01F0DC9F00086565D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9482B6BB1F0DC9F00086565D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9482B6911F0DC9EF0086565D = {
+			isa = PBXGroup;
+			children = (
+				9482B69C1F0DC9EF0086565D /* LXGradientNavView */,
+				9482B6B61F0DC9F00086565D /* LXGradientNavViewTests */,
+				9482B6C11F0DC9F00086565D /* LXGradientNavViewUITests */,
+				9482B69B1F0DC9EF0086565D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9482B69B1F0DC9EF0086565D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9482B69A1F0DC9EF0086565D /* LXGradientNavView.app */,
+				9482B6B31F0DC9F00086565D /* LXGradientNavViewTests.xctest */,
+				9482B6BE1F0DC9F00086565D /* LXGradientNavViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9482B69C1F0DC9EF0086565D /* LXGradientNavView */ = {
+			isa = PBXGroup;
+			children = (
+				9482B6A01F0DC9EF0086565D /* AppDelegate.h */,
+				9482B6A11F0DC9EF0086565D /* AppDelegate.m */,
+				9482B6A31F0DC9EF0086565D /* ViewController.h */,
+				9482B6A41F0DC9EF0086565D /* ViewController.m */,
+				9482B6D01F0DCA410086565D /* BasicController.h */,
+				9482B6D11F0DCA410086565D /* BasicController.m */,
+				9482B6D31F0DCA550086565D /* NextController.h */,
+				9482B6D41F0DCA550086565D /* NextController.m */,
+				9482B7341F0DCE290086565D /* Manager */,
+				9482B6D91F0DCAE10086565D /* Category */,
+				9482B6A61F0DC9EF0086565D /* Main.storyboard */,
+				9482B6A91F0DC9EF0086565D /* Assets.xcassets */,
+				9482B6AB1F0DC9EF0086565D /* LaunchScreen.storyboard */,
+				9482B6AE1F0DC9EF0086565D /* Info.plist */,
+				9482B69D1F0DC9EF0086565D /* Supporting Files */,
+			);
+			path = LXGradientNavView;
+			sourceTree = "<group>";
+		};
+		9482B69D1F0DC9EF0086565D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9482B69E1F0DC9EF0086565D /* main.m */,
+				9482B7381F0DD9BD0086565D /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9482B6B61F0DC9F00086565D /* LXGradientNavViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				9482B6B71F0DC9F00086565D /* LXGradientNavViewTests.m */,
+				9482B6B91F0DC9F00086565D /* Info.plist */,
+			);
+			path = LXGradientNavViewTests;
+			sourceTree = "<group>";
+		};
+		9482B6C11F0DC9F00086565D /* LXGradientNavViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9482B6C21F0DC9F00086565D /* LXGradientNavViewUITests.m */,
+				9482B6C41F0DC9F00086565D /* Info.plist */,
+			);
+			path = LXGradientNavViewUITests;
+			sourceTree = "<group>";
+		};
+		9482B6D91F0DCAE10086565D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9482B7311F0DCD950086565D /* UIColor+Expanded.h */,
+				9482B7321F0DCD950086565D /* UIColor+Expanded.m */,
+				9482B72E1F0DCC930086565D /* UIView+Frame.h */,
+				9482B72F1F0DCC930086565D /* UIView+Frame.m */,
+				9482B6D61F0DCAAE0086565D /* UIImage+colorImage.h */,
+				9482B6D71F0DCAAE0086565D /* UIImage+colorImage.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		9482B7341F0DCE290086565D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				9482B7351F0DCE3E0086565D /* LXGradientNavManager.h */,
+				9482B7361F0DCE3E0086565D /* LXGradientNavManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9482B6991F0DC9EF0086565D /* LXGradientNavView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9482B6C71F0DC9F00086565D /* Build configuration list for PBXNativeTarget "LXGradientNavView" */;
+			buildPhases = (
+				9482B6961F0DC9EF0086565D /* Sources */,
+				9482B6971F0DC9EF0086565D /* Frameworks */,
+				9482B6981F0DC9EF0086565D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXGradientNavView;
+			productName = LXGradientNavView;
+			productReference = 9482B69A1F0DC9EF0086565D /* LXGradientNavView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9482B6B21F0DC9F00086565D /* LXGradientNavViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9482B6CA1F0DC9F00086565D /* Build configuration list for PBXNativeTarget "LXGradientNavViewTests" */;
+			buildPhases = (
+				9482B6AF1F0DC9F00086565D /* Sources */,
+				9482B6B01F0DC9F00086565D /* Frameworks */,
+				9482B6B11F0DC9F00086565D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9482B6B51F0DC9F00086565D /* PBXTargetDependency */,
+			);
+			name = LXGradientNavViewTests;
+			productName = LXGradientNavViewTests;
+			productReference = 9482B6B31F0DC9F00086565D /* LXGradientNavViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9482B6BD1F0DC9F00086565D /* LXGradientNavViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9482B6CD1F0DC9F00086565D /* Build configuration list for PBXNativeTarget "LXGradientNavViewUITests" */;
+			buildPhases = (
+				9482B6BA1F0DC9F00086565D /* Sources */,
+				9482B6BB1F0DC9F00086565D /* Frameworks */,
+				9482B6BC1F0DC9F00086565D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9482B6C01F0DC9F00086565D /* PBXTargetDependency */,
+			);
+			name = LXGradientNavViewUITests;
+			productName = LXGradientNavViewUITests;
+			productReference = 9482B6BE1F0DC9F00086565D /* LXGradientNavViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9482B6921F0DC9EF0086565D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "\U0010zhongzhi";
+				TargetAttributes = {
+					9482B6991F0DC9EF0086565D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					9482B6B21F0DC9F00086565D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9482B6991F0DC9EF0086565D;
+					};
+					9482B6BD1F0DC9F00086565D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9482B6991F0DC9EF0086565D;
+					};
+				};
+			};
+			buildConfigurationList = 9482B6951F0DC9EF0086565D /* Build configuration list for PBXProject "LXGradientNavView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9482B6911F0DC9EF0086565D;
+			productRefGroup = 9482B69B1F0DC9EF0086565D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9482B6991F0DC9EF0086565D /* LXGradientNavView */,
+				9482B6B21F0DC9F00086565D /* LXGradientNavViewTests */,
+				9482B6BD1F0DC9F00086565D /* LXGradientNavViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9482B6981F0DC9EF0086565D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9482B6AD1F0DC9EF0086565D /* LaunchScreen.storyboard in Resources */,
+				9482B6AA1F0DC9EF0086565D /* Assets.xcassets in Resources */,
+				9482B6A81F0DC9EF0086565D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9482B6B11F0DC9F00086565D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9482B6BC1F0DC9F00086565D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9482B6961F0DC9EF0086565D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9482B6D51F0DCA550086565D /* NextController.m in Sources */,
+				9482B6A51F0DC9EF0086565D /* ViewController.m in Sources */,
+				9482B6A21F0DC9EF0086565D /* AppDelegate.m in Sources */,
+				9482B7371F0DCE3E0086565D /* LXGradientNavManager.m in Sources */,
+				9482B7301F0DCC930086565D /* UIView+Frame.m in Sources */,
+				9482B6D81F0DCAAE0086565D /* UIImage+colorImage.m in Sources */,
+				9482B6D21F0DCA410086565D /* BasicController.m in Sources */,
+				9482B7331F0DCD950086565D /* UIColor+Expanded.m in Sources */,
+				9482B69F1F0DC9EF0086565D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9482B6AF1F0DC9F00086565D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9482B6B81F0DC9F00086565D /* LXGradientNavViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9482B6BA1F0DC9F00086565D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9482B6C31F0DC9F00086565D /* LXGradientNavViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9482B6B51F0DC9F00086565D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9482B6991F0DC9EF0086565D /* LXGradientNavView */;
+			targetProxy = 9482B6B41F0DC9F00086565D /* PBXContainerItemProxy */;
+		};
+		9482B6C01F0DC9F00086565D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9482B6991F0DC9EF0086565D /* LXGradientNavView */;
+			targetProxy = 9482B6BF1F0DC9F00086565D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9482B6A61F0DC9EF0086565D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9482B6A71F0DC9EF0086565D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9482B6AB1F0DC9EF0086565D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9482B6AC1F0DC9EF0086565D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9482B6C51F0DC9F00086565D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9482B6C61F0DC9F00086565D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9482B6C81F0DC9F00086565D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LXGradientNavView/PrefixHeader.pch";
+				INFOPLIST_FILE = LXGradientNavView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongzhi.LXGradientNavView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9482B6C91F0DC9F00086565D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LXGradientNavView/PrefixHeader.pch";
+				INFOPLIST_FILE = LXGradientNavView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongzhi.LXGradientNavView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9482B6CB1F0DC9F00086565D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXGradientNavViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongzhi.LXGradientNavViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXGradientNavView.app/LXGradientNavView";
+			};
+			name = Debug;
+		};
+		9482B6CC1F0DC9F00086565D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXGradientNavViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongzhi.LXGradientNavViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXGradientNavView.app/LXGradientNavView";
+			};
+			name = Release;
+		};
+		9482B6CE1F0DC9F00086565D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXGradientNavViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongzhi.LXGradientNavViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXGradientNavView;
+			};
+			name = Debug;
+		};
+		9482B6CF1F0DC9F00086565D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXGradientNavViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongzhi.LXGradientNavViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXGradientNavView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9482B6951F0DC9EF0086565D /* Build configuration list for PBXProject "LXGradientNavView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9482B6C51F0DC9F00086565D /* Debug */,
+				9482B6C61F0DC9F00086565D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9482B6C71F0DC9F00086565D /* Build configuration list for PBXNativeTarget "LXGradientNavView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9482B6C81F0DC9F00086565D /* Debug */,
+				9482B6C91F0DC9F00086565D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9482B6CA1F0DC9F00086565D /* Build configuration list for PBXNativeTarget "LXGradientNavViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9482B6CB1F0DC9F00086565D /* Debug */,
+				9482B6CC1F0DC9F00086565D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9482B6CD1F0DC9F00086565D /* Build configuration list for PBXNativeTarget "LXGradientNavViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9482B6CE1F0DC9F00086565D /* Debug */,
+				9482B6CF1F0DC9F00086565D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9482B6921F0DC9EF0086565D /* Project object */;
+}
